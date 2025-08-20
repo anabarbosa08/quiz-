@@ -1,65 +1,53 @@
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Segoe UI', sans-serif;
-}
-
 body {
-background: linear-gradient(to bottom, #006400, #003300);
-color: #fff;
-padding: 40px 15px;
-display: flex;
-justify-content: center;
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+padding: 20px;
 }
 
-.container {
-background-color: rgba(0, 0, 0, 0.85);
-padding: 30px;
-border-radius: 10px;
-max-width: 800px;
-width: 100%;
-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+.quiz-container {
+background-color: #fff;
+padding: 20px;
+max-width: 600px;
+margin: auto;
+border-radius: 8px;
+box-shadow: 0px 0px 10px #ccc;
 }
 
 h1 {
 text-align: center;
-color: #ffcc00;
-margin-bottom: 30px;
+color: #333;
 }
 
 .question {
-margin-bottom: 25px;
+font-weight: bold;
+margin-top: 20px;
 }
 
-.question h2 {
-font-size: 1.1rem;
-margin-bottom: 10px;
-}
-
-label {
+.answers label {
 display: block;
 margin-bottom: 8px;
 cursor: pointer;
 }
 
-input[type="radio"] {
-margin-right: 10px;
-}
-
-button {
-width: 100%;
-padding: 12px;
-font-size: 1rem;
-background-color: #ffcc00;
-color: #000;
+#submit {
+background-color: #28a745;
+color: #fff;
 border: none;
+padding: 12px;
+margin-top: 20px;
+width: 100%;
+font-size: 16px;
 border-radius: 5px;
 cursor: pointer;
-transition: background 0.3s ease;
-margin-top: 20px;
 }
 
-button:hover {
-background-color: #e6b800;
+#submit:hover {
+background-color: #218838;
+}
+
+#results {
+margin-top: 20px;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
 }
